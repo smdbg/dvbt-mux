@@ -1,0 +1,44 @@
+{
+  "network_id": 1,
+  "network_name": "Example DVB-T",
+  "provider_name": "Example Provider",
+  "transport_stream_id": 1,
+  "original_network_id": 1,
+  "country": "BGR",
+  "utc_offset_minutes": 120,
+  "codepage": "ISO-6937",
+  "frequency_khz": 474000,
+  "bandwidth_mhz": 8,
+  "modulation": "64-QAM",
+  "fec": "3/4",
+  "guard": "1/32",
+  "transmission_mode": "8K",
+  "capacity_bps": 27144384,
+  "buffer_bytes": 8388608,
+  "version": 0,
+  "network_version": 0,
+  "inputs": [
+    {
+      "id": "channel-1",
+      "url": "udp://239.10.0.1:1234",
+      "interface": "0.0.0.0",
+      "input_service_id": 0,
+      "service_id": 1,
+      "name": "Channel 1",
+      "service_type": 1,
+      "lcn": 1,
+      "scrambled": false
+    },
+    {
+      "id": "channel-2",
+      "url": "udp://239.10.0.2:1234",
+      "interface": "0.0.0.0",
+      "input_service_id": 0,
+      "service_id": 2,
+      "name": "Channel 2",
+      "service_type": 1,
+      "lcn": 2,
+      "scrambled": false
+    }
+  ]
+}

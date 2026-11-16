@@ -1,0 +1,6 @@
+/dvb-mux
+*.o
+__pycache__/
+*.pyc
+/mux.json
+/capture.ts
